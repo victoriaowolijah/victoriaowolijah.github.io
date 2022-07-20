@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@300&family=Spectral:wght@200&display=swap');
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif;
+
+*{
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    background: #212121;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-brand span {
+    color: #9370DB;
+}
+
+/* .navbar-dark .navbar-brand:focus, */
+.navbar-dark .navbar-nav:hover{
+    color: #9370DB;
+}
+.navbar-item:hover{
+    color: #9370db;
+}
+.navbar-item {
+    justify-content: space-around;
+}
+.w-100 {
+    height: 100vh;
+}
+
+
+
+
+.navbar-light .navbar-nav .navbar-Link{
+    color: #000;
+}
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.row {
+    margin-top: 200px;
+}
+
+.hero-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1 {
+    text-transform: uppercase; 
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: white;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    color: white;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #9370DB;	
+}
+
+.hero-text a {
+    width:15rem;
+    height: 3.5rem;
+    font-weight:500;
+    background: #9370DB;
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center ;
+    color: black;
+    text-decoration: none;
+}
+
+footer.bg-dark {
+    margin-top: 20vh;
+    padding-top: 10px;
+}
+
+.socials {
+    color: #9370DB;
+}

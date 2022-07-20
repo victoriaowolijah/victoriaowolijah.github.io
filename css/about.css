@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    background: #212121;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-brand span {
+    color: #9370DB;
+}
+
+/* .navbar-dark .navbar-brand:focus, */
+.navbar-dark .navbar-nav:hover{
+    color: #9370DB;
+}
+.navbar-item:hover{
+    color: #9370db;
+}
+.navbar-item {
+    justify-content: space-around;
+}
+.w-100 {
+    height: 100vh;
+}
+ 
+
+
+
+.navbar-light .navbar-nav .navbar-Link{
+    color: #000;
+}
+ 
+.row {
+    margin-top: 200px;
+}
+
+.about-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #9370DB;	
+}
+
+.about-text a {
+    width:15rem;
+    height: 3.5rem;
+    font-weight:500;
+    background: #9370DB;
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center ;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20vh;
+    padding-top: 10px;
+}
+
+
