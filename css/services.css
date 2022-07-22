@@ -6,6 +6,11 @@ body {
     background: #212121;
 }
 
+.navbar.bg-dark {
+    background-color: #212121 !important;
+}
+
+
 .navbar-nav a {
     font-size: 15px;
     text-transform: uppercase;
@@ -89,3 +94,5 @@ body {
     margin-right:1rem;
     margin-left:1rem;
 }
+
+
